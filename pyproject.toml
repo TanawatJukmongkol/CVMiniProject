@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "exam"
+version = "1.0.0"
+description = "RAI exam"
+authors = ["Tanawat Jukmongkol <tanawat.jukmon@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pip = "^24.3.1"
+ipython = "^8.31.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+notebook = "^7.3.2"
+
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
