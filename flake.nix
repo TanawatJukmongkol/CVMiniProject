@@ -1,5 +1,6 @@
 {
-  description = "Over engineered Nix Flake for RAI exam";
+  name = "CV-mini-project";
+  description = "Computer Vision - Mini Project";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";

@@ -1,8 +1,13 @@
 [tool.poetry]
-name = "exam"
+name = "mini_project"
 version = "1.0.0"
-description = "RAI exam"
-authors = ["Tanawat Jukmongkol <tanawat.jukmon@gmail.com>"]
+description = "Computer Vision"
+authors = [
+    "Tanawat Jukmongkol <66011255@kmitl.ac.th>",
+    "Danit Kleiner <66011531@kmitl.ac.th>",
+    "Putt Puttstit <66011186@kmitl.ac.th>",
+    "Nathawat Triakarasit <66011556@kmitl.ac.th>"
+]
 license = "MIT"
 readme = "README.md"
 package-mode = false
