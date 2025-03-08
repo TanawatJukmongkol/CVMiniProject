@@ -1,5 +1,4 @@
 {
-  name = "CV-mini-project";
   description = "Computer Vision - Mini Project";
 
   inputs = {
