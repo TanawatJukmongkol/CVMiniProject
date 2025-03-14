@@ -25,7 +25,7 @@
         # Packages
         python312
         python312Packages.pyqt5
-        poetry
+        (poetry.override { python3 = python312; })
         glib
         libGL
         texliveFull
